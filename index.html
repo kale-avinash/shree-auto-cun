@@ -473,6 +473,11 @@
                            <label for="name" class="form-label">नाव</label>
                            <input type="text" class="form-control" id="name" placeholder="तुमचे नाव टाका" required>
                        </div>
+                       <input type="hidden" id="current_url" name="current_url">
+                    <script>
+                        document.getElementById("current_url").value = window.location.href;
+                    </script>
+
                        <div class="mb-3">
                            <label for="email" class="form-label">ई-मेल</label>
                            <input type="email" class="form-control" id="email" placeholder="तुमचा ई-मेल टाका" required>
