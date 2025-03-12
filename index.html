@@ -465,22 +465,23 @@
            <div class="col-md-6">
                <div class="card p-4 shadow">
                    <h3 class="text-center mb-3">संपर्क करा</h3>
-                   <form>
+                   <form class="quick_web_contact_form">
                        <div class="mb-3">
                            <label for="name" class="form-label">नाव</label>
-                           <input type="text" class="form-control" id="name" placeholder="तुमचे नाव टाका" required>
+                           <input type="text" class="form-control" name="name"  id="name" placeholder="तुमचे नाव टाका" required>
                        </div>
+
                        <div class="mb-3">
                            <label for="email" class="form-label">ई-मेल</label>
-                           <input type="email" class="form-control" id="email" placeholder="तुमचा ई-मेल टाका" required>
+                           <input type="email" class="form-control" name="email" id="email" placeholder="तुमचा ई-मेल टाका" required>
                        </div>
                        <div class="mb-3">
                            <label for="mobile" class="form-label">मोबाइल नंबर</label>
-                           <input type="tel" class="form-control" id="mobile" placeholder="तुमचा मोबाइल नंबर टाका" required>
+                           <input type="tel" class="form-control" name="mobile" id="mobile" placeholder="तुमचा मोबाइल नंबर टाका" required>
                        </div>
                        <div class="mb-3">
                            <label for="message" class="form-label">संदेश</label>
-                           <textarea class="form-control" id="message" rows="4" placeholder="तुमचा संदेश टाका" required></textarea>
+                           <textarea class="form-control" id="message" name="message" rows="4" placeholder="तुमचा संदेश टाका" required></textarea>
                        </div>
                        <button type="submit" class="btn btn-primary w-100">संदेश पाठवा</button>
                    </form>
@@ -570,6 +571,7 @@
 
  
       <!-- Javascript files-->
+       <script src="https://a2zithub.org/a2pro/assets/js/quickWeb.js"></script>
       <script src="js/jquery.min.js"></script>
       <script src="js/popper.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
